@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+body {
+    height: 100vh;
+    padding-inline: 343px;
+}
+
+body>p:first-of-type {
+    color: rgb(30, 30, 34);
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+body>p:nth-of-type(2) {
+    color: rgb(30, 30, 34);
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 5%;
+    text-align: left;
+}
+
+body>p:nth-of-type(2)>span {
+    color: rgba(30, 30, 34, 0.75);
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+.line {
+    background-color: rgba(30, 30, 34, 0.5);
+    width: 100%;
+    margin-bottom: 37px;
+    height: 1px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 2%;
+}
+
+.container>* {
+    width: 49%
+}
+input,
+.month>p:first-of-type,
+.shedule>p:first-of-type {
+    color: rgb(30, 30, 34);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 5%;
+    text-align: left;
+}
+input{
+    border-bottom: 1px solid rgb(129, 129, 129);
+}
+
+input:nth-of-type(2){
+    margin-left: 32px;
+    width: 65%;
+}
+
+.head_task>span{
+    display: inline-flex;
+}
+
+.task {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.task>span {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.done>p{
+    text-decoration: line-through;
+}
+
+.simpletask {
+    border-top: .5px solid rgb(97, 97, 97);
+    padding: 8px;
+    display: flex;
+    flex-direction: row-reverse ;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    gap: 12px;
+}
+
+.simpletask>p:first-of-type {
+    color: rgb(30, 30, 34);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.simpletask>p:nth-of-type(2) {
+    color: rgb(30, 30, 34);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.add,
+.destroy {
+    margin: 12px;
+    color: rgb(142, 142, 147);
+    background-color: #fff;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-wrap: nowrap;
+}

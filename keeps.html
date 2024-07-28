@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keeps</title>
+    <link rel="stylesheet" href="keepsstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <p>Daily Planner</p>
+    <p class="date">Date: <span></span></p>
+    <div class="line"></div>
+    <div class="container">
+        <div class="shedule">
+            <p>SCHEDULE</p>
+            <div class="line"></div>
+            <div class="head_task">
+                <span><input type="time" class="time" placeholder="00">
+                    <input type="text" class="text" placeholder="text of keep">
+                </span>
+                <button class="add">add</button>
+                <button class="destroy">delete all</button>
+            </div>
+            <div class="task">
+            </div>
+
+        </div>
+        <div class="month">
+            <p class="goals"></p>
+        </div>
+    </div>
+    <script src="keeps.js"></script>
+</body>
+
+</html>
